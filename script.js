@@ -61,7 +61,7 @@ const usersData = [
             interest: "Fighting",
         }],
 
-        bio: "Rengoku is fairly tall by Japanese standards and has a relatively muscular build. He has bright yellow hair with red streaks, black-forked eyebrows, and golden eyes.",
+        bio: "Rengoku is fairly tall by Japanese standards and has a relatively muscular build. He has bright yellow hair with red streaks, black-forked eyebrows, and golden eyes",
         isFriends: null,
     },
     
