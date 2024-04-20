@@ -48,7 +48,7 @@ const usersData = [
         location: "Ishan Gopalpur, Faridpur, BD",
         name: "Rengoku",
         age: 20,
-        iinterest: [{
+        interest: [{
             icon: `<i class="ri-gamepad-line"></i>`,
             interest: "Gaming",
         }, 
@@ -117,7 +117,7 @@ function setData(index) {
 }
 (function setInitial() {
     document.querySelector(".main-card img").src = usersData[curr].displayPic;
-    document.querySelector(".incoming-card img").src = usersData[curr + 1]?.displayPic;
+    document.querySelector(".incoming-card img").src = usersData[curr + 1].displayPic;
 
     setData(curr);
     
